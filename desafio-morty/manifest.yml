@@ -1,0 +1,8 @@
+applications:
+- name: desafio-chatbot-matt
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - DesafioChatbot
